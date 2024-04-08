@@ -4,8 +4,8 @@ from dotenv.main import load_dotenv
 load_dotenv()
 
 # Bot setup
-PREFIX = "!"
-BOT_NAME = "DevProTips"
+PREFIX = "="
+BOT_NAME = "TipsBot"
 BOT_TOKEN = os.getenv("DISCORD_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID"))
 
